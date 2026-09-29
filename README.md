@@ -31,8 +31,6 @@ Then draw again.
 
 <br>
 
-<img width="100%" alt="Years of practice" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/practice.png" />
-
 </td>
 </tr>
 </table>
