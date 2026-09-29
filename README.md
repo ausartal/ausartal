@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" alt="Ausartal masthead" src="assets/header.svg" />
+  <img width="100%" alt="Ausartal masthead" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/header.svg" />
 </div>
 
 <br>
@@ -29,7 +29,7 @@ Then draw again.
 
 <br>
 
-<img width="100%" alt="Years of practice" src="assets/timeline.svg" />
+<img width="100%" alt="Years of practice" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/timeline.svg" />
 
 <br>
 
@@ -69,7 +69,7 @@ Full-stack web, desktop tools, data work. Code that stays readable after the thi
 
 <br>
 
-<img width="100%" alt="Core stack" src="assets/stack.svg" />
+<img width="100%" alt="Core stack" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/stack.svg" />
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ Full-stack web, desktop tools, data work. Code that stays readable after the thi
 <br>
 
 <div align="center">
-  <img width="100%" alt="Selected figures" src="assets/figures.svg" />
+  <img width="100%" alt="Selected figures" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/figures.svg" />
 </div>
 
 ---
@@ -95,6 +95,6 @@ Full-stack web, desktop tools, data work. Code that stays readable after the thi
 
 <br><br>
 
-<img width="140" alt="" src="assets/footer.svg" />
+<img width="140" alt="" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/footer.svg" />
 
 </div>
