@@ -1,45 +1,113 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="260" viewBox="0 0 920 260">
-  <rect width="920" height="260" fill="#161B22"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="280" viewBox="0 0 920 280">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="55%" stop-color="#121A32"/>
+      <stop offset="100%" stop-color="#1A2240"/>
+    </linearGradient>
+    <radialGradient id="planet" cx="35%" cy="35%">
+      <stop offset="0%" stop-color="#C8B0F0" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#7B6BC0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3A2F60" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
 
-  <!-- subtle side washes ONLY on right empty zone -->
-  <ellipse cx="820" cy="130" rx="120" ry="110" fill="#D4A094" opacity="0.12"/>
-  <ellipse cx="760" cy="200" rx="100" ry="60" fill="#9BB39B" opacity="0.1"/>
-  <ellipse cx="860" cy="50" rx="80" ry="50" fill="#D9C89A" opacity="0.1"/>
+  <rect width="920" height="280" fill="url(#sky)"/>
 
-  <!-- thin left rule -->
-  <rect x="56" y="48" width="48" height="2" fill="#D4A094" opacity="0.85"/>
-
-  <!-- overline -->
-  <text x="56" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#9A9590" letter-spacing="3.2">ILLUSTRATION  ·  GAME  ·  DESIGN  ·  CODE</text>
-
-  <!-- name -->
-  <text x="54" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#F0EBE3" letter-spacing="-1.2">Ausartal</text>
-
-  <!-- single clean underline -->
-  <rect x="56" y="154" width="220" height="1.5" fill="#D4A094" opacity="0.7"/>
-
-  <!-- tagline -->
-  <text x="56" y="188" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="17" fill="#9A9590">Creating is drawing, erasing, and drawing again.</text>
-
-  <!-- chips in clear row, no decoration under them -->
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
-    <rect x="56" y="212" width="118" height="28" rx="14" fill="#D4A094" fill-opacity="0.14" stroke="#D4A094" stroke-opacity="0.45"/>
-    <text x="115" y="231" text-anchor="middle" fill="#D4A094">GAME · 6 YRS</text>
-
-    <rect x="186" y="212" width="118" height="28" rx="14" fill="#D9C89A" fill-opacity="0.14" stroke="#D9C89A" stroke-opacity="0.45"/>
-    <text x="245" y="231" text-anchor="middle" fill="#D9C89A">DESIGN · 4 YRS</text>
-
-    <rect x="316" y="212" width="114" height="28" rx="14" fill="#9BB39B" fill-opacity="0.14" stroke="#9BB39B" stroke-opacity="0.45"/>
-    <text x="373" y="231" text-anchor="middle" fill="#9BB39B">CODE · 5 YRS</text>
-
-    <rect x="442" y="212" width="118" height="28" rx="14" fill="#B0A3C0" fill-opacity="0.14" stroke="#B0A3C0" stroke-opacity="0.45"/>
-    <text x="501" y="231" text-anchor="middle" fill="#B0A3C0">SOUND · 1 YR</text>
+  <!-- stars -->
+  <g fill="#F4F0E8">
+    <circle cx="80" cy="40" r="1.4" opacity="0.9"/>
+    <circle cx="160" cy="70" r="1" opacity="0.55"/>
+    <circle cx="240" cy="30" r="1.2" opacity="0.7"/>
+    <circle cx="320" cy="55" r="0.9" opacity="0.45"/>
+    <circle cx="420" cy="28" r="1.5" opacity="0.85"/>
+    <circle cx="520" cy="48" r="1" opacity="0.5"/>
+    <circle cx="610" cy="22" r="1.3" opacity="0.75"/>
+    <circle cx="700" cy="60" r="1" opacity="0.5"/>
+    <circle cx="780" cy="35" r="1.4" opacity="0.8"/>
+    <circle cx="860" cy="70" r="1.1" opacity="0.55"/>
+    <circle cx="100" cy="120" r="1" opacity="0.4"/>
+    <circle cx="200" cy="160" r="1.2" opacity="0.55"/>
+    <circle cx="350" cy="240" r="1" opacity="0.45"/>
+    <circle cx="480" cy="250" r="1.3" opacity="0.6"/>
+    <circle cx="640" cy="230" r="1" opacity="0.4"/>
+    <circle cx="820" cy="210" r="1.2" opacity="0.55"/>
+    <circle cx="50" cy="220" r="1.1" opacity="0.5"/>
+    <circle cx="900" cy="160" r="1" opacity="0.45"/>
+    <circle cx="280" cy="95" r="1" opacity="0.35"/>
+    <circle cx="460" cy="80" r="1.1" opacity="0.5"/>
+    <circle cx="580" cy="110" r="0.9" opacity="0.35"/>
+    <circle cx="740" cy="140" r="1.1" opacity="0.45"/>
+    <circle cx="880" cy="240" r="1.2" opacity="0.5"/>
+    <circle cx="30" cy="90" r="1" opacity="0.4"/>
+    <circle cx="390" cy="180" r="1" opacity="0.35"/>
+    <circle cx="660" cy="180" r="1" opacity="0.35"/>
+    <circle cx="150" cy="200" r="1" opacity="0.35"/>
+    <circle cx="250" cy="25" r="1.6" opacity="0.9"/>
+    <circle cx="830" cy="100" r="1" opacity="0.4"/>
   </g>
 
-  <!-- quiet marks in right empty area only -->
-  <path d="M700 80 C 740 60, 780 95, 820 72" stroke="#9BB39B" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.45"/>
-  <path d="M720 120 C 760 105, 800 135, 850 115" stroke="#D4A094" stroke-width="1.3" stroke-linecap="round" fill="none" opacity="0.4"/>
-  <circle cx="700" cy="80" r="2.5" fill="#D4A094" opacity="0.55"/>
-  <circle cx="820" cy="72" r="2.5" fill="#D9C89A" opacity="0.55"/>
-  <path d="M780 175 L 812 207 L 780 239 L 748 207 Z" stroke="#9BB5C4" stroke-width="1.2" fill="#9BB5C4" fill-opacity="0.08" opacity="0.5"/>
+  <!-- manga sparkle / cross stars -->
+  <g stroke="#F4F0E8" stroke-width="1.2" stroke-linecap="round" opacity="0.85">
+    <path d="M180 45 L 180 55 M 175 50 L 185 50"/>
+    <path d="M560 35 L 560 47 M 554 41 L 566 41"/>
+    <path d="M860 145 L 860 155 M 855 150 L 865 150"/>
+    <path d="M120 175 L 120 184 M 115.5 179.5 L 124.5 179.5"/>
+    <path d="M700 250 L 700 259 M 695.5 254.5 L 704.5 254.5"/>
+    <path d="M400 140 L 400 148 M 396 144 L 404 144"/>
+  </g>
+
+  <!-- planet (manga-style shaded ball) -->
+  <circle cx="780" cy="95" r="58" fill="url(#planet)" opacity="0.85"/>
+  <circle cx="780" cy="95" r="42" fill="none" stroke="#B8A8E0" stroke-width="1.2" opacity="0.5"/>
+  <ellipse cx="780" cy="95" rx="62" ry="12" fill="none" stroke="#88B8E0" stroke-width="1.4" opacity="0.45" transform="rotate(-18 780 95)"/>
+  <!-- planet speed-line arcs -->
+  <path d="M700 60 C 730 48, 760 52, 785 48" stroke="#E8C878" stroke-width="1.2" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <path d="M720 130 C 750 142, 790 138, 830 145" stroke="#B8A8E0" stroke-width="1.1" fill="none" opacity="0.35" stroke-linecap="round"/>
+
+  <!-- comet -->
+  <g opacity="0.8">
+    <circle cx="140" cy="95" r="5" fill="#F0A0A0"/>
+    <path d="M140 95 L 210 72" stroke="#F0A0A0" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+    <path d="M140 95 L 200 60" stroke="#E8C878" stroke-width="1.1" stroke-linecap="round" opacity="0.4"/>
+    <path d="M140 95 L 195 88" stroke="#88B8E0" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <!-- manga speed lines bottom-right empty zone -->
+  <g stroke="#F4F0E8" stroke-width="1" stroke-linecap="round" opacity="0.18">
+    <path d="M560 230 L 900 195"/>
+    <path d="M580 250 L 910 220"/>
+    <path d="M600 265 L 900 245"/>
+    <path d="M540 245 L 860 215"/>
+  </g>
+
+  <!-- small moon -->
+  <circle cx="100" cy="220" r="14" fill="none" stroke="#8FD0B0" stroke-width="1.3" opacity="0.5"/>
+  <circle cx="106" cy="216" r="10" fill="#0B1020" opacity="0.55"/>
+
+  <!-- ── TEXT BLOCK: solid scrim so never overlapped by art ── -->
+  <rect x="40" y="36" width="520" height="188" rx="12" fill="#0B1020" opacity="0.55"/>
+
+  <rect x="56" y="56" width="40" height="2" fill="#E8C878" opacity="0.9"/>
+  <text x="56" y="88" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#9AA3B8" letter-spacing="3">ILLUSTRATION  ·  GAME  ·  DESIGN  ·  CODE</text>
+
+  <text x="54" y="142" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#F4F0E8" letter-spacing="-1.1">Ausartal</text>
+
+  <path d="M56 156 C 140 166, 220 154, 300 160" stroke="#F0A0A0" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.7"/>
+
+  <text x="56" y="192" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#9AA3B8">Creating is drawing, erasing, and drawing again.</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
+    <rect x="56" y="214" width="118" height="28" rx="14" fill="#F0A0A0" fill-opacity="0.16" stroke="#F0A0A0" stroke-opacity="0.5"/>
+    <text x="115" y="233" text-anchor="middle" fill="#F0A0A0">GAME · 6 YRS</text>
+
+    <rect x="186" y="214" width="118" height="28" rx="14" fill="#E8C878" fill-opacity="0.16" stroke="#E8C878" stroke-opacity="0.5"/>
+    <text x="245" y="233" text-anchor="middle" fill="#E8C878">DESIGN · 4 YRS</text>
+
+    <rect x="316" y="214" width="114" height="28" rx="14" fill="#8FD0B0" fill-opacity="0.16" stroke="#8FD0B0" stroke-opacity="0.5"/>
+    <text x="373" y="233" text-anchor="middle" fill="#8FD0B0">CODE · 5 YRS</text>
+
+    <rect x="442" y="214" width="118" height="28" rx="14" fill="#B8A8E0" fill-opacity="0.16" stroke="#B8A8E0" stroke-opacity="0.5"/>
+    <text x="501" y="233" text-anchor="middle" fill="#B8A8E0">SOUND · 1 YR</text>
+  </g>
 </svg>
