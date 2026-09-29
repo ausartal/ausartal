@@ -1,23 +1,29 @@
 <div align="center">
-  <img width="100%" alt="Ausartal masthead" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/header.svg" />
+
+<img width="100%" alt="Ausartal — Game Dev · Design · Code · Sound" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/hero.png" />
+
+<br><br>
+
+<img height="28" alt="" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/footer.png" />
+
 </div>
 
 <br>
 
 <table>
 <tr>
-<td width="62%" valign="top">
+<td width="58%" valign="top">
 
 ## Practice
 
-I work across **game development**, **visual design**, and **engineering** — not as side hobbies, but as crafts I've practiced for years.
+Game development, visual design, and engineering — crafts practiced for years, not weekend side quests.
 
 Sketch. Prototype. Erase. Ship.  
 Then draw again.
 
 <br>
 
-| Discipline | Years | Tools |
+| Discipline | Yrs | Tools |
 |:--|:-:|:--|
 | **Game Development** | 6 | Unreal Engine 4 · Godot 4 · Unity · Pixel Game Maker MV/XV · Roblox Studio |
 | **Illustration & Graphic Design** | 4 | Figma · Maya · Adobe Suite · Clip Studio Paint |
@@ -25,19 +31,21 @@ Then draw again.
 | **Music & Sound** | 1 | FL Studio · Cakewalk by BandLab |
 
 </td>
-<td width="38%" valign="top">
+<td width="42%" valign="top">
 
 <br>
 
-<img width="100%" alt="Years of practice" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/timeline.svg" />
-
-<br>
-
-> *Creating is drawing, erasing, and drawing again.*
+<img width="100%" alt="Years of practice" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/practice.png" />
 
 </td>
 </tr>
 </table>
+
+---
+
+<br>
+
+<img width="100%" alt="Selected figures" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/figures.png" />
 
 ---
 
@@ -45,12 +53,12 @@ Then draw again.
 
 <table>
 <tr>
-<td width="48%" valign="top">
+<td width="50%" valign="top">
 
 ## What I build
 
 **Worlds & systems**  
-Game mechanics, level logic, interactive systems — from pixel platforms to real-time prototypes.
+Mechanics, level logic, interactive loops — from pixel platforms to real-time prototypes.
 
 **Interfaces & visuals**  
 UI, illustration, graphic systems. Design that holds up under a cursor.
@@ -58,18 +66,35 @@ UI, illustration, graphic systems. Design that holds up under a cursor.
 **Software**  
 Full-stack web, desktop tools, data work. Code that stays readable after the third rewrite.
 
+<br>
+
+### Recent focus
+
+- **Education Web App** — learning space in TypeScript, actively refined
+- **Computer Vision** — notebooks, models, making machines see
+- **Data Mining** — messy data → something that tells the truth
+
 </td>
-<td width="52%" valign="top">
-
-## Recent focus
-
-- **Education Web App** — a learning space in TypeScript, currently under active development
-- **Computer Vision** — notebooks, models, and the craft of making machines see
-- **Data Mining** — turning messy data into something that tells the truth
+<td width="50%" valign="top">
 
 <br>
 
-<img width="100%" alt="Core stack" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/stack.svg" />
+<img width="100%" alt="Core materials" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/stack.png" />
+
+<br>
+
+<details>
+<summary><b>More about how I work</b></summary>
+<br>
+
+I treat every discipline the same way: sketch fast, kill darlings early, polish the survivor.
+
+- Games → systems first, juice later
+- Design → structure before decoration
+- Code → readable before clever
+- Sound → serve the scene
+
+</details>
 
 </td>
 </tr>
@@ -79,8 +104,24 @@ Full-stack web, desktop tools, data work. Code that stays readable after the thi
 
 <br>
 
+<img width="100%" alt="Achievement Hunter" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/hunter.png" />
+
+<br>
+
 <div align="center">
-  <img width="100%" alt="Selected figures" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/figures.svg" />
+
+<img height="120" alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=ausartal&theme=discord&no-frame=true&no-bg=true&margin-w=8&margin-h=8" />
+
+<br>
+
+<img height="150" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=ausartal&show_icons=true&hide_border=true&title_color=E07A5F&icon_color=C9A227&text_color=C9D1D9&bg_color=0D1117&ring_color=81B29A&rank_icon=github" />
+&nbsp;
+<img height="150" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ausartal&layout=compact&hide_border=true&title_color=E07A5F&text_color=C9D1D9&bg_color=0D1117" />
+
+<br>
+
+<img alt="Contribution snake" src="https://raw.githubusercontent.com/ausartal/ausartal/output/github-contribution-grid-snake-dark.svg" />
+
 </div>
 
 ---
@@ -95,6 +136,6 @@ Full-stack web, desktop tools, data work. Code that stays readable after the thi
 
 <br><br>
 
-<img width="140" alt="" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/footer.svg" />
+<img width="120" alt="" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/footer.png" />
 
 </div>
