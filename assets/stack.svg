@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="120" viewBox="0 0 520 120" fill="none">
+  <rect x="1" y="1" width="518" height="118" rx="12" stroke="#2A2E35" stroke-width="1" fill="#12181F"/>
+
+  <text x="24" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#6E7681" letter-spacing="2">CORE STACK</text>
+
+  <!-- tool chips as editorial labels -->
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="13">
+    <rect x="24" y="48" width="92" height="28" rx="14" stroke="#E07A5F" stroke-width="1" fill="#E07A5F" fill-opacity="0.1"/>
+    <text x="70" y="67" fill="#E07A5F" text-anchor="middle">Unreal</text>
+
+    <rect x="126" y="48" width="82" height="28" rx="14" stroke="#C9A227" stroke-width="1" fill="#C9A227" fill-opacity="0.1"/>
+    <text x="167" y="67" fill="#C9A227" text-anchor="middle">Godot</text>
+
+    <rect x="218" y="48" width="82" height="28" rx="14" stroke="#81B29A" stroke-width="1" fill="#81B29A" fill-opacity="0.1"/>
+    <text x="259" y="67" fill="#81B29A" text-anchor="middle">Unity</text>
+
+    <rect x="310" y="48" width="72" height="28" rx="14" stroke="#B7B0A4" stroke-width="1" fill="#B7B0A4" fill-opacity="0.08"/>
+    <text x="346" y="67" fill="#B7B0A4" text-anchor="middle">Figma</text>
+
+    <rect x="392" y="48" width="82" height="28" rx="14" stroke="#E07A5F" stroke-width="1" fill="#E07A5F" fill-opacity="0.1"/>
+    <text x="433" y="67" fill="#E07A5F" text-anchor="middle">Python</text>
+  </g>
+
+  <!-- second row -->
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="13">
+    <rect x="24" y="86" width="62" height="24" rx="12" stroke="#C9A227" stroke-width="1" fill="#C9A227" fill-opacity="0.08"/>
+    <text x="55" y="102" fill="#C9A227" text-anchor="middle">C#</text>
+
+    <rect x="96" y="86" width="72" height="24" rx="12" stroke="#81B29A" stroke-width="1" fill="#81B29A" fill-opacity="0.08"/>
+    <text x="132" y="102" fill="#81B29A" text-anchor="middle">Maya</text>
+
+    <rect x="178" y="86" width="72" height="24" rx="12" stroke="#B7B0A4" stroke-width="1" fill="#B7B0A4" fill-opacity="0.08"/>
+    <text x="214" y="102" fill="#B7B0A4" text-anchor="middle">Adobe</text>
+
+    <rect x="260" y="86" width="88" height="24" rx="12" stroke="#E07A5F" stroke-width="1" fill="#E07A5F" fill-opacity="0.08"/>
+    <text x="304" y="102" fill="#E07A5F" text-anchor="middle">TypeScript</text>
+
+    <rect x="358" y="86" width="102" height="24" rx="12" stroke="#C9A227" stroke-width="1" fill="#C9A227" fill-opacity="0.08"/>
+    <text x="409" y="102" fill="#C9A227" text-anchor="middle">Clip Studio</text>
+  </g>
+
+  <!-- accent dots -->
+  <circle cx="490" cy="32" r="2.5" fill="#81B29A" opacity="0.6"/>
+  <circle cx="500" cy="32" r="2.5" fill="#E07A5F" opacity="0.5"/>
+</svg>

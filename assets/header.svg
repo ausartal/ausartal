@@ -1,37 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="220" viewBox="0 0 880 220" fill="none">
-  <!-- paper -->
-  <rect width="880" height="220" fill="#0D1117"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="200" viewBox="0 0 880 200" fill="none">
+  <rect width="880" height="200" fill="#0D1117"/>
 
-  <!-- soft warm wash -->
-  <ellipse cx="720" cy="40" rx="220" ry="120" fill="#E07A5F" opacity="0.08"/>
-  <ellipse cx="120" cy="200" rx="180" ry="90" fill="#81B29A" opacity="0.07"/>
+  <!-- soft ambient shapes — keep clear of text zone -->
+  <ellipse cx="800" cy="30" rx="160" ry="90" fill="#E07A5F" opacity="0.06"/>
+  <ellipse cx="60" cy="190" rx="140" ry="70" fill="#81B29A" opacity="0.05"/>
+  <ellipse cx="430" cy="10" rx="280" ry="50" fill="#C9A227" opacity="0.03"/>
 
-  <!-- ink strokes — loose, hand-feel -->
-  <path d="M48 168 C 120 150, 180 190, 260 162 S 400 140, 470 168" stroke="#E07A5F" stroke-width="1.6" stroke-linecap="round" opacity="0.7"/>
-  <path d="M60 176 C 140 158, 210 198, 290 170 S 430 148, 500 176" stroke="#E07A5F" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+  <!-- fine construction lines, right side only -->
+  <g opacity="0.35" stroke="#C9A227" stroke-width="0.8">
+    <line x1="700" y1="24" x2="860" y2="24"/>
+    <line x1="720" y1="32" x2="860" y2="32"/>
+    <line x1="760" y1="40" x2="860" y2="40"/>
+  </g>
 
-  <!-- geometric marks -->
-  <circle cx="780" cy="48" r="22" stroke="#81B29A" stroke-width="1.2" opacity="0.55" fill="none"/>
-  <circle cx="780" cy="48" r="8" fill="#E07A5F" opacity="0.75"/>
-  <line x1="742" y1="88" x2="830" y2="36" stroke="#C9A227" stroke-width="1" opacity="0.45"/>
-  <path d="M820 140 L 848 168 L 820 196 L 792 168 Z" stroke="#81B29A" stroke-width="1.1" opacity="0.5" fill="none"/>
+  <!-- small ink mark cluster (top-right) -->
+  <circle cx="780" cy="78" r="18" stroke="#81B29A" stroke-width="1" fill="none" opacity="0.5"/>
+  <circle cx="780" cy="78" r="5" fill="#E07A5F" opacity="0.7"/>
+  <path d="M748 110 L 772 134 L 748 158 L 724 134 Z" stroke="#81B29A" stroke-width="1" fill="none" opacity="0.4"/>
+  <path d="M812 118 C 828 108, 844 128, 856 116" stroke="#E07A5F" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.55"/>
 
-  <!-- small pencil / pen stroke icon -->
-  <g transform="translate(640,150) rotate(-18)" opacity="0.7">
-    <path d="M0 0 L 12 -36 L 18 -34 L 6 2 Z" fill="#E07A5F"/>
-    <path d="M0 0 L 6 2 L 2 12 Z" fill="#C9A227"/>
-    <line x1="12" y1="-36" x2="18" y2="-34" stroke="#0D1117" stroke-width="1"/>
+  <!-- pencil stroke mark -->
+  <g transform="translate(640,128) rotate(-22)" opacity="0.55">
+    <rect x="0" y="-8" width="28" height="8" rx="1" fill="#E07A5F"/>
+    <path d="M28 -8 L 40 -4 L 28 0 Z" fill="#C9A227"/>
   </g>
 
   <!-- wordmark -->
-  <text x="56" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#F3EFE7" letter-spacing="-1.5">Ausartal</text>
+  <text x="52" y="82" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#F3EFE7" letter-spacing="-1.2">Ausartal</text>
 
-  <!-- underline flourish -->
-  <path d="M56 108 Q 140 122, 220 108 T 380 110" stroke="#E07A5F" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <!-- refined underline -->
+  <path d="M52 96 C 130 110, 210 96, 290 100 S 420 108, 470 98" stroke="#E07A5F" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.8"/>
 
   <!-- tagline -->
-  <text x="58" y="152" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="19" fill="#B7B0A4">Creating is drawing, erasing, and drawing again.</text>
+  <text x="54" y="138" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="18" fill="#B7B0A4">Creating is drawing, erasing, and drawing again.</text>
 
-  <!-- side label -->
-  <text x="58" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#6E7681" letter-spacing="2.4">CODE  ·  DRAW  ·  REFINE</text>
+  <!-- discipline line -->
+  <text x="54" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#6E7681" letter-spacing="2.8">GAME  ·  DESIGN  ·  CODE  ·  SOUND</text>
 </svg>

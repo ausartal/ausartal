@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="170" viewBox="0 0 880 170" fill="none">
+  <rect x="1" y="1" width="878" height="168" rx="16" stroke="#2A2E35" stroke-width="1" fill="#12181F"/>
+
+  <!-- ambient glows -->
+  <ellipse cx="160" cy="85" rx="120" ry="60" fill="#E07A5F" opacity="0.05"/>
+  <ellipse cx="440" cy="85" rx="120" ry="60" fill="#C9A227" opacity="0.04"/>
+  <ellipse cx="720" cy="85" rx="120" ry="60" fill="#81B29A" opacity="0.05"/>
+
+  <!-- header -->
+  <text x="36" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#6E7681" letter-spacing="3">SELECTED FIGURES</text>
+  <line x1="36" y1="48" x2="120" y2="48" stroke="#E07A5F" stroke-width="1.5" opacity="0.65"/>
+
+  <!-- figure 1 — years making games -->
+  <text x="36" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#E07A5F">06</text>
+  <text x="36" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#F3EFE7">years making games</text>
+  <text x="36" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#6E7681" letter-spacing="1.4">UNREAL · GODOT · UNITY</text>
+
+  <!-- divider -->
+  <line x1="280" y1="60" x2="280" y2="140" stroke="#2A2E35" stroke-width="1"/>
+
+  <!-- figure 2 — years designing -->
+  <text x="320" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#C9A227">04</text>
+  <text x="320" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#F3EFE7">years designing</text>
+  <text x="320" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#6E7681" letter-spacing="1.4">FIGMA · MAYA · CSP</text>
+
+  <!-- divider -->
+  <line x1="560" y1="60" x2="560" y2="140" stroke="#2A2E35" stroke-width="1"/>
+
+  <!-- figure 3 — years coding -->
+  <text x="600" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#81B29A">05</text>
+  <text x="600" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#F3EFE7">years writing code</text>
+  <text x="600" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#6E7681" letter-spacing="1.4">C · C++ · C# · PYTHON</text>
+
+  <!-- decorative flourishes -->
+  <path d="M820 36 C 836 28, 852 48, 864 38" stroke="#E07A5F" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.45"/>
+  <circle cx="866" cy="38" r="2" fill="#C9A227" opacity="0.55"/>
+  <path d="M820 134 L 848 134" stroke="#81B29A" stroke-width="1" opacity="0.35"/>
+</svg>

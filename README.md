@@ -1,36 +1,42 @@
 <div align="center">
-
-<!-- hand-drawn-ish masthead -->
-<img width="100%" src="assets/header.svg" alt="Ausartal — Creating is drawing, erasing, and drawing again" />
-
+  <img width="100%" alt="Ausartal masthead" src="assets/header.svg" />
 </div>
 
 <br>
 
 <table>
-<td width="58%">
+<tr>
+<td width="62%" valign="top">
 
-### Currently
+## Practice
 
-Building **education-web-app** — a learning space where structure meets softness.  
-Also elbow-deep in **computer vision** notebooks and data-mining labs.
+I work across **game development**, **visual design**, and **engineering** — not as side hobbies, but as crafts I've practiced for years.
 
-I draw the same way I code: sketch first, refine later, erase without guilt.
+Sketch. Prototype. Erase. Ship.  
+Then draw again.
 
-</td>
-<td width="42%" align="right">
+<br>
 
-```
-      .  ˚
-   .    ·
-  ✎  creating
-     is drawing
-    erasing
-   drawing again
-      ·
-```
+| Discipline | Years | Tools |
+|:--|:-:|:--|
+| **Game Development** | 6 | Unreal Engine 4 · Godot 4 · Unity · Pixel Game Maker MV/XV · Roblox Studio |
+| **Illustration & Graphic Design** | 4 | Figma · Maya · Adobe Suite · Clip Studio Paint |
+| **Code & Engineering** | 5 | C · C++ · C# · Pascal · Java · Python · TypeScript |
+| **Music & Sound** | 1 | FL Studio · Cakewalk by BandLab |
 
 </td>
+<td width="38%" valign="top">
+
+<br>
+
+<img width="100%" alt="Years of practice" src="assets/timeline.svg" />
+
+<br>
+
+> *Creating is drawing, erasing, and drawing again.*
+
+</td>
+</tr>
 </table>
 
 ---
@@ -38,62 +44,35 @@ I draw the same way I code: sketch first, refine later, erase without guilt.
 <br>
 
 <table>
-<td width="38%" valign="top">
+<tr>
+<td width="48%" valign="top">
 
-## Selected work
+## What I build
 
-*Projects I keep coming back to.*
+**Worlds & systems**  
+Game mechanics, level logic, interactive systems — from pixel platforms to real-time prototypes.
 
-<br>
+**Interfaces & visuals**  
+UI, illustration, graphic systems. Design that holds up under a cursor.
 
-**Education Web App**  
-TypeScript · ongoing  
-A web space for teaching & learning — the one I'm refining the most right now.
-
-**Surabaya Bus Tracking**  
-TypeScript  
-Real-time bus routes for the city. Wayfinding with a pulse.
-
-**Computer Vision Course**  
-Python  
-Experiments, notebooks, and the occasional model that finally behaves.
-
-**News App / Note App**  
-Flutter  
-Mobile pieces from when I lived in Dart full-time.
-
-**Gastroentero Hepatology GUI** · **Infectious Diseases GUI** · **Platformer Game**  
-Java  
-Earlier work — medical tools and a game. Same hand, different ink.
-
-<br>
-
-*See the full shelf →* [github.com/ausartal](https://github.com/ausartal)
+**Software**  
+Full-stack web, desktop tools, data work. Code that stays readable after the third rewrite.
 
 </td>
-<td width="62%" valign="top">
+<td width="52%" valign="top">
 
-## Materials I work with
+## Recent focus
 
-<br>
-
-| | |
-|---|---|
-| **Languages** | TypeScript · Python · Dart · Java · JavaScript |
-| **Surface** | React · Flutter · Node · Express |
-| **Under the hood** | Docker · Linux · Git · REST |
-| **Currently studying** | Data mining · Computer vision · ML fundamentals |
+- **Education Web App** — a learning space in TypeScript, currently under active development
+- **Computer Vision** — notebooks, models, and the craft of making machines see
+- **Data Mining** — turning messy data into something that tells the truth
 
 <br>
 
-<img width="100%" src="assets/stats.svg" alt="A few numbers" />
-
-<br>
-<br>
-
-> *"Creating is drawing, erasing, and drawing again."*
+<img width="100%" alt="Core stack" src="assets/stack.svg" />
 
 </td>
+</tr>
 </table>
 
 ---
@@ -101,14 +80,21 @@ Earlier work — medical tools and a game. Same hand, different ink.
 <br>
 
 <div align="center">
+  <img width="100%" alt="Selected figures" src="assets/figures.svg" />
+</div>
 
-*Find me*
-
-&nbsp;&nbsp;&nbsp;[`github.com/ausartal`](https://github.com/ausartal)&nbsp;&nbsp;·&nbsp;&nbsp;[`Ausartal@users.noreply.github.com`](mailto:Ausartal@users.noreply.github.com)
+---
 
 <br>
-<br>
 
-<img width="120" src="assets/footer.svg" alt="" />
+<div align="center">
+
+[`github.com/ausartal`](https://github.com/ausartal)
+&nbsp;&nbsp;·&nbsp;&nbsp;
+[`Ausartal@users.noreply.github.com`](mailto:Ausartal@users.noreply.github.com)
+
+<br><br>
+
+<img width="140" alt="" src="assets/footer.svg" />
 
 </div>

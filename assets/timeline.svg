@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="280" viewBox="0 0 360 280" fill="none">
+  <rect x="1" y="1" width="358" height="278" rx="16" stroke="#2A2E35" stroke-width="1" fill="#12181F"/>
+
+  <text x="28" y="40" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#8B949E" letter-spacing="2">YEARS OF PRACTICE</text>
+  <line x1="28" y1="52" x2="90" y2="52" stroke="#E07A5F" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Game Dev 6y -->
+  <text x="28" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#F3EFE7">Game Development</text>
+  <text x="310" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#E07A5F" text-anchor="end">6</text>
+  <rect x="28" y="102" width="282" height="6" rx="3" fill="#2A2E35"/>
+  <rect x="28" y="102" width="282" height="6" rx="3" fill="#E07A5F" opacity="0.85"/>
+
+  <!-- Illustration 4y -->
+  <text x="28" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#F3EFE7">Illustration & Design</text>
+  <text x="310" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#C9A227" text-anchor="end">4</text>
+  <rect x="28" y="148" width="282" height="6" rx="3" fill="#2A2E35"/>
+  <rect x="28" y="148" width="188" height="6" rx="3" fill="#C9A227" opacity="0.85"/>
+
+  <!-- Code 5y -->
+  <text x="28" y="184" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#F3EFE7">Code & Engineering</text>
+  <text x="310" y="184" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#81B29A" text-anchor="end">5</text>
+  <rect x="28" y="194" width="282" height="6" rx="3" fill="#2A2E35"/>
+  <rect x="28" y="194" width="235" height="6" rx="3" fill="#81B29A" opacity="0.85"/>
+
+  <!-- Music 1y -->
+  <text x="28" y="230" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#F3EFE7">Music & Sound</text>
+  <text x="310" y="230" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#B7B0A4" text-anchor="end">1</text>
+  <rect x="28" y="240" width="282" height="6" rx="3" fill="#2A2E35"/>
+  <rect x="28" y="240" width="52" height="6" rx="3" fill="#B7B0A4" opacity="0.85"/>
+
+  <!-- subtle mark -->
+  <circle cx="330" cy="40" r="3" fill="#E07A5F" opacity="0.5"/>
+</svg>
