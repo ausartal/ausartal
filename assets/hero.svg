@@ -227,17 +227,18 @@
 
   <text x="56" y="198" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#9AA3B8">Creating is drawing, erasing, and drawing again.</text>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
-    <rect x="56" y="220" width="118" height="28" rx="14" fill="#F0A0A0" fill-opacity="0.16" stroke="#F0A0A0" stroke-opacity="0.5"/>
-    <text x="115" y="239" text-anchor="middle" fill="#F0A0A0">GAME · 6 YRS</text>
+  <!-- chips: solid pastel, equal width/gap for symmetry -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600">
+    <rect x="56" y="220" width="118" height="28" rx="14" fill="#F0A0A0"/>
+    <text x="115" y="239" text-anchor="middle" fill="#1A1520">GAME · 6 YRS</text>
 
-    <rect x="186" y="220" width="118" height="28" rx="14" fill="#E8C878" fill-opacity="0.16" stroke="#E8C878" stroke-opacity="0.5"/>
-    <text x="245" y="239" text-anchor="middle" fill="#E8C878">DESIGN · 4 YRS</text>
+    <rect x="184" y="220" width="118" height="28" rx="14" fill="#E8C878"/>
+    <text x="243" y="239" text-anchor="middle" fill="#1A1520">DESIGN · 4 YRS</text>
 
-    <rect x="316" y="220" width="114" height="28" rx="14" fill="#8FD0B0" fill-opacity="0.16" stroke="#8FD0B0" stroke-opacity="0.5"/>
-    <text x="373" y="239" text-anchor="middle" fill="#8FD0B0">CODE · 5 YRS</text>
+    <rect x="312" y="220" width="118" height="28" rx="14" fill="#8FD0B0"/>
+    <text x="371" y="239" text-anchor="middle" fill="#1A1520">CODE · 5 YRS</text>
 
-    <rect x="442" y="220" width="118" height="28" rx="14" fill="#B8A8E0" fill-opacity="0.16" stroke="#B8A8E0" stroke-opacity="0.5"/>
-    <text x="501" y="239" text-anchor="middle" fill="#B8A8E0">SOUND · 1 YR</text>
+    <rect x="440" y="220" width="128" height="28" rx="14" fill="#B8A8E0"/>
+    <text x="504" y="239" text-anchor="middle" fill="#1A1520">BEATMAKER · 1 YR</text>
   </g>
 </svg>
