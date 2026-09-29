@@ -1,29 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="920" height="180" viewBox="0 0 920 180">
   <rect width="920" height="180" rx="10" fill="#0D1117"/>
-  <rect x="0.5" y="0.5" width="919" height="179" rx="9.5" fill="none" stroke="#30363D"/>
+  <rect x="0.5" y="0.5" width="919" height="179" rx="9.5" fill="none" stroke="#2A3340"/>
 
   <text x="36" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#8B949E" letter-spacing="3">SELECTED FIGURES</text>
-  <rect x="36" y="46" width="56" height="1" fill="#B08968"/>
+  <rect x="36" y="46" width="28" height="2" fill="#D08770"/>
+  <rect x="68" y="46" width="28" height="2" fill="#D4A857"/>
+  <rect x="100" y="46" width="28" height="2" fill="#8FBC8F"/>
+  <rect x="132" y="46" width="28" height="2" fill="#A8A29E"/>
 
-  <text x="36" y="110" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#E6EDF3">06</text>
+  <text x="36" y="110" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#D08770">06</text>
   <text x="36" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#E6EDF3">years making games</text>
   <text x="36" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#8B949E" letter-spacing="1.4">UNREAL · GODOT · UNITY · RBLX</text>
 
-  <line x1="230" y1="64" x2="230" y2="158" stroke="#30363D"/>
+  <line x1="230" y1="64" x2="230" y2="158" stroke="#2A3340"/>
 
-  <text x="270" y="110" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#8B949E">04</text>
+  <text x="270" y="110" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#D4A857">04</text>
   <text x="270" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#E6EDF3">years designing</text>
   <text x="270" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#8B949E" letter-spacing="1.4">FIGMA · MAYA · ADOBE · CSP</text>
 
-  <line x1="470" y1="64" x2="470" y2="158" stroke="#30363D"/>
+  <line x1="470" y1="64" x2="470" y2="158" stroke="#2A3340"/>
 
-  <text x="510" y="110" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#B08968">05</text>
+  <text x="510" y="110" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#8FBC8F">05</text>
   <text x="510" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#E6EDF3">years writing code</text>
   <text x="510" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#8B949E" letter-spacing="1.4">C · C++ · C# · PYTHON · TS</text>
 
-  <line x1="710" y1="64" x2="710" y2="158" stroke="#30363D"/>
+  <line x1="710" y1="64" x2="710" y2="158" stroke="#2A3340"/>
 
-  <text x="750" y="110" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#8B949E">01</text>
+  <text x="750" y="110" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#A8A29E">01</text>
   <text x="750" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#E6EDF3">year scoring sound</text>
   <text x="750" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" fill="#8B949E" letter-spacing="1.4">FL STUDIO · CAKEWALK</text>
 </svg>

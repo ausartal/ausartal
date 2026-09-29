@@ -1,31 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
-  <rect width="400" height="300" rx="10" fill="#161B22"/>
-  <rect x="0.5" y="0.5" width="399" height="299" rx="9.5" fill="none" stroke="#30363D"/>
+  <rect width="400" height="300" rx="10" fill="#11171F"/>
+  <rect x="0.5" y="0.5" width="399" height="299" rx="9.5" fill="none" stroke="#2A3340"/>
 
   <text x="28" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#8B949E" letter-spacing="2.5">YEARS OF PRACTICE</text>
-  <rect x="28" y="50" width="48" height="1" fill="#B08968"/>
+  <rect x="28" y="50" width="48" height="2" fill="#D08770"/>
 
-  <!-- 6 -->
   <text x="28" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#E6EDF3">Game Development</text>
-  <text x="360" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#E6EDF3" text-anchor="end">6</text>
+  <text x="360" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#D08770" text-anchor="end">6</text>
   <rect x="28" y="104" width="332" height="4" fill="#21262D"/>
-  <rect x="28" y="104" width="332" height="4" fill="#E6EDF3"/>
+  <rect x="28" y="104" width="332" height="4" fill="#D08770"/>
 
-  <!-- 4 -->
   <text x="28" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#E6EDF3">Illustration &amp; Design</text>
-  <text x="360" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#E6EDF3" text-anchor="end">4</text>
+  <text x="360" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#D4A857" text-anchor="end">4</text>
   <rect x="28" y="158" width="332" height="4" fill="#21262D"/>
-  <rect x="28" y="158" width="221" height="4" fill="#8B949E"/>
+  <rect x="28" y="158" width="221" height="4" fill="#D4A857"/>
 
-  <!-- 5 -->
   <text x="28" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#E6EDF3">Code &amp; Engineering</text>
-  <text x="360" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#E6EDF3" text-anchor="end">5</text>
+  <text x="360" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#8FBC8F" text-anchor="end">5</text>
   <rect x="28" y="212" width="332" height="4" fill="#21262D"/>
-  <rect x="28" y="212" width="276" height="4" fill="#B08968"/>
+  <rect x="28" y="212" width="276" height="4" fill="#8FBC8F"/>
 
-  <!-- 1 -->
   <text x="28" y="254" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#E6EDF3">Music &amp; Sound</text>
-  <text x="360" y="254" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#E6EDF3" text-anchor="end">1</text>
+  <text x="360" y="254" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#A8A29E" text-anchor="end">1</text>
   <rect x="28" y="266" width="332" height="4" fill="#21262D"/>
-  <rect x="28" y="266" width="62" height="4" fill="#6E7681"/>
+  <rect x="28" y="266" width="62" height="4" fill="#A8A29E"/>
 </svg>

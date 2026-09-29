@@ -100,15 +100,14 @@ I treat every discipline the same way: sketch fast, kill darlings early, polish 
 
 <br>
 
-<div align="center">
-
-<img height="120" alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=ausartal&theme=onedark&no-frame=true&no-bg=true&margin-w=8&margin-h=8" />
+<img width="100%" alt="GitHub snapshot" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/stats.png" />
 
 <br>
 
-<img height="150" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=ausartal&show_icons=true&hide_border=true&title_color=8B949E&icon_color=8B949E&text_color=C9D1D9&bg_color=0D1117&ring_color=B08968" />
-&nbsp;
-<img height="150" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ausartal&layout=compact&hide_border=true&title_color=8B949E&text_color=C9D1D9&bg_color=0D1117" />
+<div align="center">
+
+<!-- contribution snake -->
+<img alt="Contribution snake" src="https://raw.githubusercontent.com/ausartal/ausartal/output/github-contribution-grid-snake-dark.svg" />
 
 </div>
 

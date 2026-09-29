@@ -1,36 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="260" viewBox="0 0 920 260">
-  <rect width="920" height="260" rx="12" fill="#0D1117"/>
-  <rect x="0.5" y="0.5" width="919" height="259" rx="11.5" fill="none" stroke="#30363D"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="250" viewBox="0 0 920 250">
+  <rect width="920" height="250" rx="12" fill="#0D1117"/>
+  <rect x="0.5" y="0.5" width="919" height="249" rx="11.5" fill="none" stroke="#2A3340"/>
 
-  <!-- thin top rule -->
-  <rect x="48" y="40" width="64" height="1" fill="#B08968"/>
+  <!-- color rules, flat -->
+  <rect x="48" y="40" width="28" height="3" fill="#D08770"/>
+  <rect x="80" y="40" width="28" height="3" fill="#D4A857"/>
+  <rect x="112" y="40" width="28" height="3" fill="#8FBC8F"/>
+  <rect x="144" y="40" width="28" height="3" fill="#A8A29E"/>
 
-  <text x="48" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8B949E" letter-spacing="3.5">PORTFOLIO</text>
+  <text x="48" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8B949E" letter-spacing="3.5">PORTFOLIO</text>
 
-  <text x="46" y="132" font-family="Georgia, 'Times New Roman', serif" font-size="58" fill="#E6EDF3" letter-spacing="-1.2">Ausartal</text>
+  <text x="46" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="58" fill="#E6EDF3" letter-spacing="-1.2">Ausartal</text>
 
-  <text x="48" y="172" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="18" fill="#8B949E">Creating is drawing, erasing, and drawing again.</text>
+  <text x="48" y="178" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="18" fill="#8B949E">Creating is drawing, erasing, and drawing again.</text>
 
-  <!-- monochrome discipline labels -->
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#E6EDF3">
-    <rect x="48" y="198" width="128" height="30" rx="2" fill="none" stroke="#30363D"/>
-    <text x="112" y="218" text-anchor="middle" letter-spacing="1.2">GAME DEV · 6 YRS</text>
+  <!-- colored flat chips -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
+    <rect x="48" y="200" width="128" height="30" rx="2" fill="#D08770" fill-opacity="0.18" stroke="#D08770" stroke-opacity="0.7"/>
+    <text x="112" y="220" text-anchor="middle" fill="#D08770" letter-spacing="1.2">GAME DEV · 6 YRS</text>
 
-    <rect x="188" y="198" width="120" height="30" rx="2" fill="none" stroke="#30363D"/>
-    <text x="248" y="218" text-anchor="middle" letter-spacing="1.2">DESIGN · 4 YRS</text>
+    <rect x="188" y="200" width="120" height="30" rx="2" fill="#D4A857" fill-opacity="0.18" stroke="#D4A857" stroke-opacity="0.7"/>
+    <text x="248" y="220" text-anchor="middle" fill="#D4A857" letter-spacing="1.2">DESIGN · 4 YRS</text>
 
-    <rect x="320" y="198" width="112" height="30" rx="2" fill="none" stroke="#30363D"/>
-    <text x="376" y="218" text-anchor="middle" letter-spacing="1.2">CODE · 5 YRS</text>
+    <rect x="320" y="200" width="112" height="30" rx="2" fill="#8FBC8F" fill-opacity="0.18" stroke="#8FBC8F" stroke-opacity="0.7"/>
+    <text x="376" y="220" text-anchor="middle" fill="#8FBC8F" letter-spacing="1.2">CODE · 5 YRS</text>
 
-    <rect x="444" y="198" width="116" height="30" rx="2" fill="none" stroke="#30363D"/>
-    <text x="502" y="218" text-anchor="middle" letter-spacing="1.2">SOUND · 1 YR</text>
+    <rect x="444" y="200" width="116" height="30" rx="2" fill="#A8A29E" fill-opacity="0.15" stroke="#A8A29E" stroke-opacity="0.7"/>
+    <text x="502" y="220" text-anchor="middle" fill="#A8A29E" letter-spacing="1.2">SOUND · 1 YR</text>
   </g>
 
-  <!-- restrained geometric mark, right -->
-  <g fill="none" stroke="#30363D" stroke-width="1">
-    <line x1="780" y1="80" x2="860" y2="80"/>
-    <line x1="800" y1="100" x2="860" y2="100"/>
-    <rect x="780" y="130" width="48" height="48" stroke="#B08968" stroke-opacity="0.5"/>
-    <line x1="780" y1="130" x2="828" y2="178" stroke="#B08968" stroke-opacity="0.35"/>
+  <!-- flat geometric, no glow -->
+  <g fill="none" stroke-width="1.2">
+    <rect x="780" y="70" width="44" height="44" stroke="#D08770" stroke-opacity="0.75"/>
+    <line x1="780" y1="70" x2="824" y2="114" stroke="#D08770" stroke-opacity="0.45"/>
+    <rect x="836" y="70" width="44" height="44" stroke="#D4A857" stroke-opacity="0.65"/>
+    <rect x="780" y="130" width="44" height="44" stroke="#8FBC8F" stroke-opacity="0.55"/>
+    <rect x="836" y="130" width="44" height="44" stroke="#A8A29E" stroke-opacity="0.45"/>
+  </g>
+  <g>
+    <rect x="786" y="76" width="32" height="32" fill="#D08770" fill-opacity="0.25"/>
+    <rect x="842" y="76" width="32" height="32" fill="#D4A857" fill-opacity="0.22"/>
+    <rect x="786" y="136" width="32" height="32" fill="#8FBC8F" fill-opacity="0.2"/>
+    <rect x="842" y="136" width="32" height="32" fill="#A8A29E" fill-opacity="0.18"/>
   </g>
 </svg>
