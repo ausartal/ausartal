@@ -8,7 +8,7 @@
 
 <table>
 <tr>
-<td width="58%" valign="top">
+<td width="100%" valign="top">
 
 ## Practice
 
@@ -26,14 +26,7 @@ Then draw again.
 | **Code & Engineering** | 5 | C · C++ · C# · Pascal · Java · Python · TypeScript |
 | **Music & Sound** | 1 | FL Studio · Cakewalk by BandLab |
 
-</td>
-<td width="42%" valign="top">
 
-<br>
-
-<img width="100%" alt="Years of practice" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/practice.png" />
-
-</td>
 </tr>
 </table>
 
