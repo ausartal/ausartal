@@ -6,10 +6,6 @@
 
 <br>
 
-<table>
-<tr>
-<td width="58%" valign="top">
-
 ## Practice
 
 Game development, visual design, and engineering — crafts practiced for years, not weekend side quests.
@@ -17,25 +13,12 @@ Game development, visual design, and engineering — crafts practiced for years,
 Sketch. Prototype. Erase. Ship.  
 Then draw again.
 
-<br>
-
 | Discipline | Yrs | Tools |
 |:--|:-:|:--|
 | **Game Development** | 6 | Unreal Engine 4 · Godot 4 · Unity · Pixel Game Maker MV/XV · Roblox Studio |
 | **Illustration & Graphic Design** | 4 | Figma · Maya · Adobe Suite · Clip Studio Paint |
 | **Code & Engineering** | 5 | C · C++ · C# · Pascal · Java · Python · TypeScript |
 | **Music & Sound** | 1 | FL Studio · Cakewalk by BandLab |
-
-</td>
-<td width="42%" valign="top">
-
-<br>
-
-<img width="100%" alt="Years of practice" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/practice.png" />
-
-</td>
-</tr>
-</table>
 
 ---
 

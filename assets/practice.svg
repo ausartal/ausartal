@@ -1,27 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
-  <rect width="400" height="300" rx="10" fill="#11171F"/>
-  <rect x="0.5" y="0.5" width="399" height="299" rx="9.5" fill="none" stroke="#2A3340"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="120" viewBox="0 0 920 120">
+  <rect x="10" y="10" width="900" height="100" rx="14" fill="#1A222B"/>
+  <rect x="10.5" y="10.5" width="899" height="99" rx="13.5" fill="none" stroke="#2F3A45"/>
 
-  <text x="28" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#8B949E" letter-spacing="2.5">YEARS OF PRACTICE</text>
-  <rect x="28" y="50" width="48" height="2" fill="#D08770"/>
+  <text x="36" y="42" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#9AA5B1" letter-spacing="2.8">YEARS OF PRACTICE</text>
 
-  <text x="28" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#E6EDF3">Game Development</text>
-  <text x="360" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#D08770" text-anchor="end">6</text>
-  <rect x="28" y="104" width="332" height="4" fill="#21262D"/>
-  <rect x="28" y="104" width="332" height="4" fill="#D08770"/>
+  <!-- pastel mini-bars full width -->
+  <rect x="36" y="58" width="200" height="6" rx="3" fill="#E8A598"/>
+  <rect x="248" y="58" width="140" height="6" rx="3" fill="#E8D5A3"/>
+  <rect x="400" y="58" width="175" height="6" rx="3" fill="#A8C5A8"/>
+  <rect x="587" y="58" width="40" height="6" rx="3" fill="#B8A9C9"/>
 
-  <text x="28" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#E6EDF3">Illustration &amp; Design</text>
-  <text x="360" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#D4A857" text-anchor="end">4</text>
-  <rect x="28" y="158" width="332" height="4" fill="#21262D"/>
-  <rect x="28" y="158" width="221" height="4" fill="#D4A857"/>
+  <text x="36" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#F2EDE6">06 games</text>
+  <text x="150" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#9AA5B1">04 design</text>
+  <text x="270" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#9AA5B1">05 code</text>
+  <text x="380" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#9AA5B1">01 sound</text>
 
-  <text x="28" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#E6EDF3">Code &amp; Engineering</text>
-  <text x="360" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#8FBC8F" text-anchor="end">5</text>
-  <rect x="28" y="212" width="332" height="4" fill="#21262D"/>
-  <rect x="28" y="212" width="276" height="4" fill="#8FBC8F"/>
-
-  <text x="28" y="254" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#E6EDF3">Music &amp; Sound</text>
-  <text x="360" y="254" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#A8A29E" text-anchor="end">1</text>
-  <rect x="28" y="266" width="332" height="4" fill="#21262D"/>
-  <rect x="28" y="266" width="62" height="4" fill="#A8A29E"/>
+  <rect x="800" y="36" width="64" height="6" rx="3" fill="#E8A598" opacity="0.7"/>
+  <rect x="800" y="52" width="52" height="6" rx="3" fill="#E8D5A3" opacity="0.7"/>
+  <rect x="800" y="68" width="58" height="6" rx="3" fill="#A8C5A8" opacity="0.7"/>
 </svg>

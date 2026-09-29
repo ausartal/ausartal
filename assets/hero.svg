@@ -1,46 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="250" viewBox="0 0 920 250">
-  <rect width="920" height="250" rx="12" fill="#0D1117"/>
-  <rect x="0.5" y="0.5" width="919" height="249" rx="11.5" fill="none" stroke="#2A3340"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="230" viewBox="0 0 920 230">
+  <!-- card -->
+  <rect x="10" y="10" width="900" height="210" rx="18" fill="#1A222B"/>
+  <rect x="10.5" y="10.5" width="899" height="209" rx="17.5" fill="none" stroke="#2F3A45"/>
 
-  <!-- color rules, flat -->
-  <rect x="48" y="40" width="28" height="3" fill="#D08770"/>
-  <rect x="80" y="40" width="28" height="3" fill="#D4A857"/>
-  <rect x="112" y="40" width="28" height="3" fill="#8FBC8F"/>
-  <rect x="144" y="40" width="28" height="3" fill="#A8A29E"/>
+  <!-- illustrator mark: nib / pen star hybrid -->
+  <circle cx="78" cy="115" r="36" stroke="#E8A598" stroke-width="1.8" fill="#E8A598" fill-opacity="0.14"/>
+  <path d="M78 88 L 84 108 L 105 109 L 89 122 L 94 142 L 78 129 L 62 142 L 67 122 L 51 109 L 72 108 Z" fill="#E8A598" opacity="0.92"/>
+  <!-- nib stroke under star -->
+  <path d="M64 150 C 72 146, 84 154, 92 148" stroke="#E8D5A3" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.75"/>
 
-  <text x="48" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8B949E" letter-spacing="3.5">PORTFOLIO</text>
+  <!-- overline -->
+  <text x="140" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#9AA5B1" letter-spacing="3.2">ILLUSTRATOR  ·  GAME  ·  DESIGN  ·  CODE</text>
 
-  <text x="46" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="58" fill="#E6EDF3" letter-spacing="-1.2">Ausartal</text>
+  <!-- name -->
+  <text x="138" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#F2EDE6" letter-spacing="-0.8">Ausartal</text>
 
-  <text x="48" y="178" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="18" fill="#8B949E">Creating is drawing, erasing, and drawing again.</text>
+  <!-- subtitle -->
+  <text x="140" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#9AA5B1">Creating is drawing, erasing, and drawing again —</text>
+  <text x="140" y="172" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#9AA5B1">illustration, game craft, and software, practiced for years.</text>
 
-  <!-- colored flat chips -->
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
-    <rect x="48" y="200" width="128" height="30" rx="2" fill="#D08770" fill-opacity="0.18" stroke="#D08770" stroke-opacity="0.7"/>
-    <text x="112" y="220" text-anchor="middle" fill="#D08770" letter-spacing="1.2">GAME DEV · 6 YRS</text>
+  <!-- badge line -->
+  <text x="140" y="204" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#E8A598" letter-spacing="1.15">GAME DEV  ·  DESIGN  ·  CODE  ·  SOUND</text>
 
-    <rect x="188" y="200" width="120" height="30" rx="2" fill="#D4A857" fill-opacity="0.18" stroke="#D4A857" stroke-opacity="0.7"/>
-    <text x="248" y="220" text-anchor="middle" fill="#D4A857" letter-spacing="1.2">DESIGN · 4 YRS</text>
+  <!-- pastel accent bars -->
+  <rect x="780" y="72" width="88" height="7" rx="3.5" fill="#E8A598"/>
+  <rect x="780" y="90" width="72" height="7" rx="3.5" fill="#E8D5A3"/>
+  <rect x="780" y="108" width="82" height="7" rx="3.5" fill="#A8C5A8"/>
+  <rect x="780" y="126" width="58" height="7" rx="3.5" fill="#B8A9C9"/>
+  <rect x="780" y="144" width="68" height="7" rx="3.5" fill="#A8C0D4"/>
 
-    <rect x="320" y="200" width="112" height="30" rx="2" fill="#8FBC8F" fill-opacity="0.18" stroke="#8FBC8F" stroke-opacity="0.7"/>
-    <text x="376" y="220" text-anchor="middle" fill="#8FBC8F" letter-spacing="1.2">CODE · 5 YRS</text>
-
-    <rect x="444" y="200" width="116" height="30" rx="2" fill="#A8A29E" fill-opacity="0.15" stroke="#A8A29E" stroke-opacity="0.7"/>
-    <text x="502" y="220" text-anchor="middle" fill="#A8A29E" letter-spacing="1.2">SOUND · 1 YR</text>
-  </g>
-
-  <!-- flat geometric, no glow -->
-  <g fill="none" stroke-width="1.2">
-    <rect x="780" y="70" width="44" height="44" stroke="#D08770" stroke-opacity="0.75"/>
-    <line x1="780" y1="70" x2="824" y2="114" stroke="#D08770" stroke-opacity="0.45"/>
-    <rect x="836" y="70" width="44" height="44" stroke="#D4A857" stroke-opacity="0.65"/>
-    <rect x="780" y="130" width="44" height="44" stroke="#8FBC8F" stroke-opacity="0.55"/>
-    <rect x="836" y="130" width="44" height="44" stroke="#A8A29E" stroke-opacity="0.45"/>
-  </g>
-  <g>
-    <rect x="786" y="76" width="32" height="32" fill="#D08770" fill-opacity="0.25"/>
-    <rect x="842" y="76" width="32" height="32" fill="#D4A857" fill-opacity="0.22"/>
-    <rect x="786" y="136" width="32" height="32" fill="#8FBC8F" fill-opacity="0.2"/>
-    <rect x="842" y="136" width="32" height="32" fill="#A8A29E" fill-opacity="0.18"/>
-  </g>
+  <!-- soft corner ticks -->
+  <path d="M28 36 L 28 22 L 42 22" stroke="#E8D5A3" stroke-width="1.2" opacity="0.4" fill="none"/>
+  <path d="M892 194 L 892 208 L 878 208" stroke="#A8C5A8" stroke-width="1.2" opacity="0.4" fill="none"/>
 </svg>
