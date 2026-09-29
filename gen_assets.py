@@ -3,81 +3,71 @@ from pathlib import Path
 
 OUT = Path(r"C:\Users\ahmad\Documents\College\Subjects\Data Mining\github-profile\assets")
 
-# Pastel, refined — illustrator studio, not AI neon
-INK = "#121820"
-PANEL = "#1A222B"
-LINE = "#2F3A45"
-MUTED = "#9AA5B1"
-PAPER = "#F2EDE6"
+# Fluid illustrator pastels — washes, curves, no card/star/bars language
+INK = "#1A1F26"
+PAPER = "#F7F2EB"
+MUTED = "#8B8680"
+CORAL = "#E8A598"
+BUTTER = "#EBD9A8"
+SAGE = "#A8C5A8"
+LILAC = "#C4B5D4"
+SKY = "#A8C5D4"
 
-# pastel accents
-CORAL = "#E8A598"   # soft coral
-BUTTER = "#E8D5A3"  # butter
-SAGE = "#A8C5A8"    # sage
-LILAC = "#B8A9C9"   # lilac
-SKY = "#A8C0D4"     # dusty sky
+hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="920" height="280" viewBox="0 0 920 280">
+  <!-- paper -->
+  <rect width="920" height="280" fill="{INK}"/>
 
-hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="920" height="230" viewBox="0 0 920 230">
-  <!-- card -->
-  <rect x="10" y="10" width="900" height="210" rx="18" fill="{PANEL}"/>
-  <rect x="10.5" y="10.5" width="899" height="209" rx="17.5" fill="none" stroke="{LINE}"/>
+  <!-- fluid pastel washes -->
+  <path d="M0 200 C 120 140, 220 250, 360 180 S 520 120, 640 190 S 780 240, 920 170 L 920 280 L 0 280 Z" fill="{SAGE}" opacity="0.18"/>
+  <path d="M0 230 C 140 190, 260 260, 400 210 S 580 160, 720 220 S 840 250, 920 210 L 920 280 L 0 280 Z" fill="{CORAL}" opacity="0.16"/>
+  <ellipse cx="780" cy="70" rx="160" ry="90" fill="{BUTTER}" opacity="0.22"/>
+  <ellipse cx="160" cy="60" rx="130" ry="80" fill="{LILAC}" opacity="0.18"/>
+  <ellipse cx="520" cy="40" rx="200" ry="60" fill="{SKY}" opacity="0.14"/>
 
-  <!-- illustrator mark: nib / pen star hybrid -->
-  <circle cx="78" cy="115" r="36" stroke="{CORAL}" stroke-width="1.8" fill="{CORAL}" fill-opacity="0.14"/>
-  <path d="M78 88 L 84 108 L 105 109 L 89 122 L 94 142 L 78 129 L 62 142 L 67 122 L 51 109 L 72 108 Z" fill="{CORAL}" opacity="0.92"/>
-  <!-- nib stroke under star -->
-  <path d="M64 150 C 72 146, 84 154, 92 148" stroke="{BUTTER}" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.75"/>
+  <!-- flowing brush strokes -->
+  <path d="M40 210 C 140 170, 240 230, 360 190 S 520 150, 660 200 S 820 230, 880 195" stroke="{CORAL}" stroke-width="3.2" stroke-linecap="round" fill="none" opacity="0.55"/>
+  <path d="M55 228 C 160 195, 270 245, 390 210 S 550 175, 690 218 S 830 245, 875 215" stroke="{BUTTER}" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <path d="M30 190 C 120 155, 230 210, 350 170 S 510 135, 650 185 S 810 215, 900 180" stroke="{LILAC}" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.35"/>
+
+  <!-- sketchy orbital marks -->
+  <path d="M720 60 C 760 40, 800 80, 840 55" stroke="{SAGE}" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.55"/>
+  <circle cx="720" cy="60" r="3" fill="{CORAL}" opacity="0.7"/>
+  <circle cx="840" cy="55" r="2.5" fill="{SAGE}" opacity="0.7"/>
+  <path d="M90 100 C 130 85, 150 120, 190 100" stroke="{BUTTER}" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+  <!-- soft pencil diamond / stamp -->
+  <path d="M800 130 L 835 165 L 800 200 L 765 165 Z" stroke="{CORAL}" stroke-width="1.4" fill="{CORAL}" fill-opacity="0.12" opacity="0.7"/>
+  <path d="M70 155 L 95 180 L 70 205 L 45 180 Z" stroke="{SKY}" stroke-width="1.2" fill="{SKY}" fill-opacity="0.1" opacity="0.55"/>
 
   <!-- overline -->
-  <text x="140" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="{MUTED}" letter-spacing="3.2">ILLUSTRATOR  ·  GAME  ·  DESIGN  ·  CODE</text>
+  <text x="64" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="{MUTED}" letter-spacing="3.5">ILLUSTRATION  ·  GAME  ·  DESIGN  ·  CODE</text>
 
-  <!-- name -->
-  <text x="138" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="{PAPER}" letter-spacing="-0.8">Ausartal</text>
+  <!-- wordmark -->
+  <text x="60" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="58" fill="{PAPER}" letter-spacing="-1.4">Ausartal</text>
 
-  <!-- subtitle -->
-  <text x="140" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="{MUTED}">Creating is drawing, erasing, and drawing again —</text>
-  <text x="140" y="172" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="{MUTED}">illustration, game craft, and software, practiced for years.</text>
+  <!-- flourish under name -->
+  <path d="M64 152 C 140 168, 220 152, 300 158 S 420 168, 480 156" stroke="{CORAL}" stroke-width="2.2" stroke-linecap="round" fill="none" opacity="0.75"/>
+  <path d="M70 162 C 150 175, 240 162, 330 168 S 450 176, 500 168" stroke="{BUTTER}" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.45"/>
 
-  <!-- badge line -->
-  <text x="140" y="204" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="{CORAL}" letter-spacing="1.15">GAME DEV  ·  DESIGN  ·  CODE  ·  SOUND</text>
+  <!-- tagline -->
+  <text x="64" y="196" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="18" fill="{MUTED}">Creating is drawing, erasing, and drawing again.</text>
 
-  <!-- pastel accent bars -->
-  <rect x="780" y="72" width="88" height="7" rx="3.5" fill="{CORAL}"/>
-  <rect x="780" y="90" width="72" height="7" rx="3.5" fill="{BUTTER}"/>
-  <rect x="780" y="108" width="82" height="7" rx="3.5" fill="{SAGE}"/>
-  <rect x="780" y="126" width="58" height="7" rx="3.5" fill="{LILAC}"/>
-  <rect x="780" y="144" width="68" height="7" rx="3.5" fill="{SKY}"/>
+  <!-- disciplines as soft chips -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
+    <rect x="64" y="220" width="124" height="28" rx="14" fill="{CORAL}" fill-opacity="0.2" stroke="{CORAL}" stroke-opacity="0.55"/>
+    <text x="126" y="239" text-anchor="middle" fill="{CORAL}">GAME · 6 YRS</text>
 
-  <!-- soft corner ticks -->
-  <path d="M28 36 L 28 22 L 42 22" stroke="{BUTTER}" stroke-width="1.2" opacity="0.4" fill="none"/>
-  <path d="M892 194 L 892 208 L 878 208" stroke="{SAGE}" stroke-width="1.2" opacity="0.4" fill="none"/>
+    <rect x="200" y="220" width="124" height="28" rx="14" fill="{BUTTER}" fill-opacity="0.2" stroke="{BUTTER}" stroke-opacity="0.55"/>
+    <text x="262" y="239" text-anchor="middle" fill="{BUTTER}">DESIGN · 4 YRS</text>
+
+    <rect x="336" y="220" width="120" height="28" rx="14" fill="{SAGE}" fill-opacity="0.2" stroke="{SAGE}" stroke-opacity="0.55"/>
+    <text x="396" y="239" text-anchor="middle" fill="{SAGE}">CODE · 5 YRS</text>
+
+    <rect x="468" y="220" width="124" height="28" rx="14" fill="{LILAC}" fill-opacity="0.2" stroke="{LILAC}" stroke-opacity="0.55"/>
+    <text x="530" y="239" text-anchor="middle" fill="{LILAC}">SOUND · 1 YR</text>
+  </g>
 </svg>'''
 
-# Practice panel used as full-width strip under Practice text (optional header art)
-practice = f'''<svg xmlns="http://www.w3.org/2000/svg" width="920" height="120" viewBox="0 0 920 120">
-  <rect x="10" y="10" width="900" height="100" rx="14" fill="{PANEL}"/>
-  <rect x="10.5" y="10.5" width="899" height="99" rx="13.5" fill="none" stroke="{LINE}"/>
-
-  <text x="36" y="42" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="{MUTED}" letter-spacing="2.8">YEARS OF PRACTICE</text>
-
-  <!-- pastel mini-bars full width -->
-  <rect x="36" y="58" width="200" height="6" rx="3" fill="{CORAL}"/>
-  <rect x="248" y="58" width="140" height="6" rx="3" fill="{BUTTER}"/>
-  <rect x="400" y="58" width="175" height="6" rx="3" fill="{SAGE}"/>
-  <rect x="587" y="58" width="40" height="6" rx="3" fill="{LILAC}"/>
-
-  <text x="36" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="{PAPER}">06 games</text>
-  <text x="150" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="{MUTED}">04 design</text>
-  <text x="270" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="{MUTED}">05 code</text>
-  <text x="380" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="{MUTED}">01 sound</text>
-
-  <rect x="800" y="36" width="64" height="6" rx="3" fill="{CORAL}" opacity="0.7"/>
-  <rect x="800" y="52" width="52" height="6" rx="3" fill="{BUTTER}" opacity="0.7"/>
-  <rect x="800" y="68" width="58" height="6" rx="3" fill="{SAGE}" opacity="0.7"/>
-</svg>'''
-
-for name, svg, w in [("hero.svg", hero, 920), ("practice.svg", practice, 920)]:
-    (OUT / name).write_text(svg, encoding="utf-8")
-    cairosvg.svg2png(bytestring=svg.encode("utf-8"), write_to=str(OUT / name.replace(".svg", ".png")), output_width=w)
-    print(name, "ok")
-print("done")
+(OUT / "hero.svg").write_text(hero, encoding="utf-8")
+cairosvg.svg2png(bytestring=hero.encode("utf-8"), write_to=str(OUT / "hero.png"), output_width=920)
+print("hero ok", (OUT / "hero.png").stat().st_size)
