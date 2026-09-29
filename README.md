@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" alt="Ausartal — Game Dev · Design · Code · Sound" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/hero.png" />
+<img width="100%" alt="Ausartal" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/hero.png" />
 
 </div>
 
@@ -30,6 +30,8 @@ Then draw again.
 <td width="42%" valign="top">
 
 <br>
+
+<img width="100%" alt="Years of practice" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/practice.png" />
 
 </td>
 </tr>
@@ -104,7 +106,6 @@ I treat every discipline the same way: sketch fast, kill darlings early, polish 
 
 <div align="center">
 
-<!-- contribution snake -->
 <img alt="Contribution snake" src="https://raw.githubusercontent.com/ausartal/ausartal/output/github-contribution-grid-snake-dark.svg" />
 
 </div>
