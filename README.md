@@ -2,10 +2,6 @@
 
 <img width="100%" alt="Ausartal — Game Dev · Design · Code · Sound" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/hero.png" />
 
-<br><br>
-
-<img height="28" alt="" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/footer.png" />
-
 </div>
 
 <br>
@@ -104,23 +100,15 @@ I treat every discipline the same way: sketch fast, kill darlings early, polish 
 
 <br>
 
-<img width="100%" alt="Achievement Hunter" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/hunter.png" />
-
-<br>
-
 <div align="center">
 
-<img height="120" alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=ausartal&theme=discord&no-frame=true&no-bg=true&margin-w=8&margin-h=8" />
+<img height="120" alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=ausartal&theme=onedark&no-frame=true&no-bg=true&margin-w=8&margin-h=8" />
 
 <br>
 
-<img height="150" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=ausartal&show_icons=true&hide_border=true&title_color=E07A5F&icon_color=C9A227&text_color=C9D1D9&bg_color=0D1117&ring_color=81B29A&rank_icon=github" />
+<img height="150" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=ausartal&show_icons=true&hide_border=true&title_color=8B949E&icon_color=8B949E&text_color=C9D1D9&bg_color=0D1117&ring_color=B08968" />
 &nbsp;
-<img height="150" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ausartal&layout=compact&hide_border=true&title_color=E07A5F&text_color=C9D1D9&bg_color=0D1117" />
-
-<br>
-
-<img alt="Contribution snake" src="https://raw.githubusercontent.com/ausartal/ausartal/output/github-contribution-grid-snake-dark.svg" />
+<img height="150" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ausartal&layout=compact&hide_border=true&title_color=8B949E&text_color=C9D1D9&bg_color=0D1117" />
 
 </div>
 
@@ -133,9 +121,5 @@ I treat every discipline the same way: sketch fast, kill darlings early, polish 
 [`github.com/ausartal`](https://github.com/ausartal)
 &nbsp;&nbsp;·&nbsp;&nbsp;
 [`Ausartal@users.noreply.github.com`](mailto:Ausartal@users.noreply.github.com)
-
-<br><br>
-
-<img width="120" alt="" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/footer.png" />
 
 </div>
