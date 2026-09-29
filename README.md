@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" alt="Ausartal — Game Dev · Design · Code · Sound" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/hero.png" />
+<img width="100%" alt="Ausartal — Game Dev · Design · Code · Sound" src="https://raw.githubusercontent.com/ausartal/ausartal/main/assets/hero.svg" />
 
 </div>
 

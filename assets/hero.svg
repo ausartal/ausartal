@@ -1,113 +1,243 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="280" viewBox="0 0 920 280">
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="300" viewBox="0 0 920 300">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0B1020"/>
-      <stop offset="55%" stop-color="#121A32"/>
-      <stop offset="100%" stop-color="#1A2240"/>
+      <stop offset="45%" stop-color="#141C38"/>
+      <stop offset="100%" stop-color="#1E2450"/>
     </linearGradient>
-    <radialGradient id="planet" cx="35%" cy="35%">
-      <stop offset="0%" stop-color="#C8B0F0" stop-opacity="0.9"/>
-      <stop offset="55%" stop-color="#7B6BC0" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#3A2F60" stop-opacity="0"/>
+    <radialGradient id="nebA" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#6B4FA0" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#6B4FA0" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="nebB" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#C45C7A" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#C45C7A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="planetBody" cx="32%" cy="28%">
+      <stop offset="0%" stop-color="#C8B8F5"/>
+      <stop offset="45%" stop-color="#7B6BD0"/>
+      <stop offset="100%" stop-color="#2A2460"/>
+    </radialGradient>
+    <radialGradient id="glowC" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#8EC5FF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8EC5FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8EC5FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#B8A0FF" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#8EC5FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8EC5FF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#EAF4FF" stop-opacity="0.9"/>
+    </linearGradient>
   </defs>
 
-  <rect width="920" height="280" fill="url(#sky)"/>
+  <!-- sky -->
+  <rect width="920" height="300" fill="url(#sky)"/>
+  <ellipse cx="780" cy="90" rx="200" ry="130" fill="url(#nebA)"/>
+  <ellipse cx="180" cy="240" rx="180" ry="100" fill="url(#nebB)"/>
 
-  <!-- stars -->
-  <g fill="#F4F0E8">
-    <circle cx="80" cy="40" r="1.4" opacity="0.9"/>
-    <circle cx="160" cy="70" r="1" opacity="0.55"/>
-    <circle cx="240" cy="30" r="1.2" opacity="0.7"/>
-    <circle cx="320" cy="55" r="0.9" opacity="0.45"/>
-    <circle cx="420" cy="28" r="1.5" opacity="0.85"/>
-    <circle cx="520" cy="48" r="1" opacity="0.5"/>
-    <circle cx="610" cy="22" r="1.3" opacity="0.75"/>
-    <circle cx="700" cy="60" r="1" opacity="0.5"/>
-    <circle cx="780" cy="35" r="1.4" opacity="0.8"/>
-    <circle cx="860" cy="70" r="1.1" opacity="0.55"/>
-    <circle cx="100" cy="120" r="1" opacity="0.4"/>
-    <circle cx="200" cy="160" r="1.2" opacity="0.55"/>
-    <circle cx="350" cy="240" r="1" opacity="0.45"/>
-    <circle cx="480" cy="250" r="1.3" opacity="0.6"/>
-    <circle cx="640" cy="230" r="1" opacity="0.4"/>
-    <circle cx="820" cy="210" r="1.2" opacity="0.55"/>
-    <circle cx="50" cy="220" r="1.1" opacity="0.5"/>
-    <circle cx="900" cy="160" r="1" opacity="0.45"/>
-    <circle cx="280" cy="95" r="1" opacity="0.35"/>
-    <circle cx="460" cy="80" r="1.1" opacity="0.5"/>
-    <circle cx="580" cy="110" r="0.9" opacity="0.35"/>
-    <circle cx="740" cy="140" r="1.1" opacity="0.45"/>
-    <circle cx="880" cy="240" r="1.2" opacity="0.5"/>
-    <circle cx="30" cy="90" r="1" opacity="0.4"/>
-    <circle cx="390" cy="180" r="1" opacity="0.35"/>
-    <circle cx="660" cy="180" r="1" opacity="0.35"/>
-    <circle cx="150" cy="200" r="1" opacity="0.35"/>
-    <circle cx="250" cy="25" r="1.6" opacity="0.9"/>
-    <circle cx="830" cy="100" r="1" opacity="0.4"/>
+  <!-- twinkling stars: group A -->
+  <g fill="#FFFFFF">
+    <circle cx="60" cy="40" r="1.4">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="140" cy="70" r="1">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.6s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="220" cy="28" r="1.6">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="4s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="55" r="1">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.9s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="380" cy="22" r="1.3">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" begin="1.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="460" cy="48" r="1">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="18" r="1.5">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="3.8s" begin="0.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="50" r="1">
+      <animate attributeName="opacity" values="0.9;0.25;0.9" dur="2.7s" begin="1.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="30" r="1.3">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.1s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="820" cy="45" r="1.1">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2.8s" begin="0.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="880" cy="80" r="1.4">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3.6s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="90" cy="130" r="1">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.3s" begin="0.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="170" r="1.2">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" begin="1.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="340" cy="250" r="1">
+      <animate attributeName="opacity" values="1;0.3;1" dur="3.9s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="420" cy="270" r="1.3">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.8s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="520" cy="245" r="1">
+      <animate attributeName="opacity" values="0.9;0.25;0.9" dur="3.4s" begin="0.15s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="660" cy="265" r="1.2">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.7s" begin="0.85s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="780" cy="230" r="1">
+      <animate attributeName="opacity" values="1;0.35;1" dur="3.2s" begin="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="860" cy="200" r="1.4">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.6s" begin="0.45s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="40" cy="210" r="1">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.7s" begin="1.15s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="280" cy="100" r="1">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.9s" begin="0.65s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="90" r="1.1">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="3.5s" begin="0.25s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="580" cy="120" r="0.9">
+      <animate attributeName="opacity" values="0.9;0.25;0.9" dur="2.4s" begin="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="740" cy="150" r="1.1">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.1s" begin="0.95s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="260" r="1">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2.8s" begin="0.55s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
-  <!-- manga sparkle / cross stars -->
-  <g stroke="#F4F0E8" stroke-width="1.2" stroke-linecap="round" opacity="0.85">
-    <path d="M180 45 L 180 55 M 175 50 L 185 50"/>
-    <path d="M560 35 L 560 47 M 554 41 L 566 41"/>
-    <path d="M860 145 L 860 155 M 855 150 L 865 150"/>
-    <path d="M120 175 L 120 184 M 115.5 179.5 L 124.5 179.5"/>
-    <path d="M700 250 L 700 259 M 695.5 254.5 L 704.5 254.5"/>
-    <path d="M400 140 L 400 148 M 396 144 L 404 144"/>
+  <!-- manga sparkle crosses -->
+  <g stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" fill="none">
+    <g>
+      <path d="M170 48 L 170 60 M 164 54 L 176 54"/>
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="2.8s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <path d="M555 38 L 555 52 M 548 45 L 562 45"/>
+      <animate attributeName="opacity" values="1;0.2;1" dur="3.4s" begin="0.6s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <path d="M870 155 L 870 166 M 864.5 160.5 L 875.5 160.5"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" begin="1.1s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <path d="M115 185 L 115 195 M 110 190 L 120 190"/>
+      <animate attributeName="opacity" values="1;0.25;1" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <path d="M710 255 L 710 265 M 705 260 L 715 260"/>
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="2.7s" begin="1.3s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <path d="M400 155 L 400 164 M 395.5 159.5 L 404.5 159.5"/>
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.2s" begin="0.2s" repeatCount="indefinite"/>
+    </g>
   </g>
 
-  <!-- planet (manga-style shaded ball) -->
-  <circle cx="780" cy="95" r="58" fill="url(#planet)" opacity="0.85"/>
-  <circle cx="780" cy="95" r="42" fill="none" stroke="#B8A8E0" stroke-width="1.2" opacity="0.5"/>
-  <ellipse cx="780" cy="95" rx="62" ry="12" fill="none" stroke="#88B8E0" stroke-width="1.4" opacity="0.45" transform="rotate(-18 780 95)"/>
-  <!-- planet speed-line arcs -->
-  <path d="M700 60 C 730 48, 760 52, 785 48" stroke="#E8C878" stroke-width="1.2" fill="none" opacity="0.4" stroke-linecap="round"/>
-  <path d="M720 130 C 750 142, 790 138, 830 145" stroke="#B8A8E0" stroke-width="1.1" fill="none" opacity="0.35" stroke-linecap="round"/>
+  <!-- shooting star 1 -->
+  <g>
+    <circle r="2.5" fill="#EAF4FF" cx="0" cy="0"/>
+    <path d="M0 0 L 70 -22" stroke="url(#trail)" stroke-width="2" stroke-linecap="round"/>
+    <animateMotion path="M -20 40 L 220 12" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="4.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- shooting star 2 -->
+  <g>
+    <circle r="2" fill="#EAF4FF" cx="0" cy="0"/>
+    <path d="M0 0 L 55 -16" stroke="url(#trail)" stroke-width="1.6" stroke-linecap="round"/>
+    <animateMotion path="M 680 55 L 860 18" dur="5.2s" begin="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.65;1" dur="5.2s" begin="1.8s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- shooting star 3 -->
+  <g>
+    <circle r="1.8" fill="#EAF4FF" cx="0" cy="0"/>
+    <path d="M0 0 L 48 -14" stroke="url(#trail)" stroke-width="1.4" stroke-linecap="round"/>
+    <animateMotion path="M 120 200 L 280 160" dur="6s" begin="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.7;1" dur="6s" begin="3.2s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- floating planet -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="7s" repeatCount="indefinite"/>
+    <circle cx="800" cy="120" r="62" fill="url(#glowC)" opacity="0.7"/>
+    <circle cx="800" cy="120" r="48" fill="url(#planetBody)"/>
+    <!-- surface details -->
+    <ellipse cx="785" cy="105" rx="12" ry="7" fill="#A898E8" opacity="0.45"/>
+    <ellipse cx="815" cy="130" rx="16" ry="8" fill="#5A4AA0" opacity="0.35"/>
+    <ellipse cx="795" cy="138" rx="8" ry="5" fill="#B8A8F0" opacity="0.3"/>
+    <!-- ring -->
+    <ellipse cx="800" cy="120" rx="70" ry="16" fill="none" stroke="url(#ring)" stroke-width="3" transform="rotate(-18 800 120)"/>
+    <ellipse cx="800" cy="120" rx="70" ry="16" fill="none" stroke="#B8A0FF" stroke-width="1" opacity="0.35" transform="rotate(-18 800 120)"/>
+  </g>
+
+  <!-- small cyan moon/planet -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 6;0 0" dur="5.5s" repeatCount="indefinite"/>
+    <circle cx="200" cy="70" r="14" fill="#5AC8FF" opacity="0.9"/>
+    <circle cx="196" cy="66" r="7" fill="#8EC5FF" opacity="0.55"/>
+    <circle cx="200" cy="70" r="22" fill="#5AC8FF" opacity="0.12"/>
+    <!-- tiny orbit ring -->
+    <ellipse cx="200" cy="70" rx="26" ry="8" fill="none" stroke="#8EC5FF" stroke-width="1.2" opacity="0.45" transform="rotate(-25 200 70)">
+      <animateTransform attributeName="transform" type="rotate" values="-25 200 70;-20 200 70;-25 200 70" dur="6s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
 
   <!-- comet -->
-  <g opacity="0.8">
-    <circle cx="140" cy="95" r="5" fill="#F0A0A0"/>
-    <path d="M140 95 L 210 72" stroke="#F0A0A0" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
-    <path d="M140 95 L 200 60" stroke="#E8C878" stroke-width="1.1" stroke-linecap="round" opacity="0.4"/>
-    <path d="M140 95 L 195 88" stroke="#88B8E0" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="6.5s" repeatCount="indefinite"/>
+    <circle cx="130" cy="115" r="6" fill="#F0A0A0"/>
+    <circle cx="130" cy="115" r="11" fill="#F0A0A0" opacity="0.18"/>
+    <path d="M130 115 L 210 88" stroke="#F0A0A0" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+    <path d="M130 115 L 195 78" stroke="#E8C878" stroke-width="1.2" stroke-linecap="round" opacity="0.4"/>
+    <path d="M130 115 L 188 105" stroke="#8EC5FF" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
   </g>
 
-  <!-- manga speed lines bottom-right empty zone -->
-  <g stroke="#F4F0E8" stroke-width="1" stroke-linecap="round" opacity="0.18">
-    <path d="M560 230 L 900 195"/>
-    <path d="M580 250 L 910 220"/>
-    <path d="M600 265 L 900 245"/>
-    <path d="M540 245 L 860 215"/>
+  <!-- faint speed lines -->
+  <g stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.12">
+    <path d="M560 250 L 900 215">
+      <animate attributeName="opacity" values="0.08;0.18;0.08" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M580 272 L 910 240">
+      <animate attributeName="opacity" values="0.15;0.06;0.15" dur="5s" begin="1s" repeatCount="indefinite"/>
+    </path>
   </g>
 
-  <!-- small moon -->
-  <circle cx="100" cy="220" r="14" fill="none" stroke="#8FD0B0" stroke-width="1.3" opacity="0.5"/>
-  <circle cx="106" cy="216" r="10" fill="#0B1020" opacity="0.55"/>
+  <!-- TEXT SCRIM -->
+  <rect x="36" y="36" width="540" height="220" rx="14" fill="#0B1020" opacity="0.52"/>
 
-  <!-- ── TEXT BLOCK: solid scrim so never overlapped by art ── -->
-  <rect x="40" y="36" width="520" height="188" rx="12" fill="#0B1020" opacity="0.55"/>
+  <rect x="56" y="58" width="42" height="2" fill="#E8C878" opacity="0.9"/>
+  <text x="56" y="92" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#9AA3B8" letter-spacing="3">ILLUSTRATION  ·  GAME  ·  DESIGN  ·  CODE</text>
 
-  <rect x="56" y="56" width="40" height="2" fill="#E8C878" opacity="0.9"/>
-  <text x="56" y="88" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#9AA3B8" letter-spacing="3">ILLUSTRATION  ·  GAME  ·  DESIGN  ·  CODE</text>
+  <text x="54" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#F4F0E8" letter-spacing="-1.1">Ausartal</text>
 
-  <text x="54" y="142" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#F4F0E8" letter-spacing="-1.1">Ausartal</text>
+  <path d="M56 162 C 140 172, 220 160, 300 166" stroke="#F0A0A0" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.7"/>
 
-  <path d="M56 156 C 140 166, 220 154, 300 160" stroke="#F0A0A0" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.7"/>
-
-  <text x="56" y="192" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#9AA3B8">Creating is drawing, erasing, and drawing again.</text>
+  <text x="56" y="198" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#9AA3B8">Creating is drawing, erasing, and drawing again.</text>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
-    <rect x="56" y="214" width="118" height="28" rx="14" fill="#F0A0A0" fill-opacity="0.16" stroke="#F0A0A0" stroke-opacity="0.5"/>
-    <text x="115" y="233" text-anchor="middle" fill="#F0A0A0">GAME · 6 YRS</text>
+    <rect x="56" y="220" width="118" height="28" rx="14" fill="#F0A0A0" fill-opacity="0.16" stroke="#F0A0A0" stroke-opacity="0.5"/>
+    <text x="115" y="239" text-anchor="middle" fill="#F0A0A0">GAME · 6 YRS</text>
 
-    <rect x="186" y="214" width="118" height="28" rx="14" fill="#E8C878" fill-opacity="0.16" stroke="#E8C878" stroke-opacity="0.5"/>
-    <text x="245" y="233" text-anchor="middle" fill="#E8C878">DESIGN · 4 YRS</text>
+    <rect x="186" y="220" width="118" height="28" rx="14" fill="#E8C878" fill-opacity="0.16" stroke="#E8C878" stroke-opacity="0.5"/>
+    <text x="245" y="239" text-anchor="middle" fill="#E8C878">DESIGN · 4 YRS</text>
 
-    <rect x="316" y="214" width="114" height="28" rx="14" fill="#8FD0B0" fill-opacity="0.16" stroke="#8FD0B0" stroke-opacity="0.5"/>
-    <text x="373" y="233" text-anchor="middle" fill="#8FD0B0">CODE · 5 YRS</text>
+    <rect x="316" y="220" width="114" height="28" rx="14" fill="#8FD0B0" fill-opacity="0.16" stroke="#8FD0B0" stroke-opacity="0.5"/>
+    <text x="373" y="239" text-anchor="middle" fill="#8FD0B0">CODE · 5 YRS</text>
 
-    <rect x="442" y="214" width="118" height="28" rx="14" fill="#B8A8E0" fill-opacity="0.16" stroke="#B8A8E0" stroke-opacity="0.5"/>
-    <text x="501" y="233" text-anchor="middle" fill="#B8A8E0">SOUND · 1 YR</text>
+    <rect x="442" y="220" width="118" height="28" rx="14" fill="#B8A8E0" fill-opacity="0.16" stroke="#B8A8E0" stroke-opacity="0.5"/>
+    <text x="501" y="239" text-anchor="middle" fill="#B8A8E0">SOUND · 1 YR</text>
   </g>
 </svg>
