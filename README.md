@@ -89,8 +89,11 @@ I treat every discipline the same way: sketch fast, kill darlings early, polish 
 
 <div align="center">
 
-<!-- contribution snake -->
-<img alt="Contribution snake" src="https://raw.githubusercontent.com/ausartal/ausartal/output/github-contribution-grid-snake-dark.svg" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ausartal/ausartal/output/snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ausartal/ausartal/output/snake.svg"/>
+  <img width="100%" alt="Contribution snake" src="https://raw.githubusercontent.com/ausartal/ausartal/output/snake-dark.svg"/>
+</picture>
 
 </div>
 
