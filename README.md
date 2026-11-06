@@ -105,6 +105,8 @@ I treat every discipline the same way: sketch fast, kill darlings early, polish 
 
 [`github.com/ausartal`](https://github.com/ausartal)
 &nbsp;&nbsp;·&nbsp;&nbsp;
-[`Ausartal@users.noreply.github.com`](mailto:Ausartal@users.noreply.github.com)
+[`ahmadnabalfalah@gmail.com`](mailto:Ausartal@users.noreply.github.com)
+&nbsp;&nbsp;·&nbsp;&nbsp;
+[`http://ahmadnabalfalah.my.id/`](http://ahmadnabalfalah.my.id/)
 
 </div>
